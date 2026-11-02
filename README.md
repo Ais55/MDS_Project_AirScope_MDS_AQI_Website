@@ -13,7 +13,7 @@ A responsive static website built with HTML, CSS, and JavaScript. It has the thr
 - Chart data and notebook-reported metrics are in `app.js`.
 
 ## Data provenance and interpretation
-Content is grounded in the uploaded `MDS_Project_AQI (2).ipynb`, which loads `city_day.csv`. The notebook reports 29,531 rows and 16 columns before preprocessing, 26 cities, and no duplicate rows. The website uses reported output values where available. Some exploratory charts in the notebook were saved as plots without their underlying numeric series in the notebook output, so the website does not invent those values.
+Content is grounded in the uploaded `Team11_SourceCode.ipynb`, which loads `city_day.csv`. The notebook reports 29,531 rows and 16 columns before preprocessing, 26 cities, and no duplicate rows. The website uses reported output values where available. Some exploratory charts in the notebook were saved as plots without their underlying numeric series in the notebook output, so the website does not invent those values.
 
 Reported metrics are labeled by evaluation stage. The final Gradient Boosting regression test metrics are MAE 16.4729, RMSE 26.2242, and R² 0.8807596. The final Random Forest classification test metrics are accuracy 0.7811159, precision 0.8005655, recall 0.7811159, and F1 0.7674076. The notebook's model-comparison classification table is a validation-stage comparison and shows Gradient Boosting accuracy 0.8011806 and F1 0.7964510.
 
